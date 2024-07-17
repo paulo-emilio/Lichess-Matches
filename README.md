@@ -64,7 +64,7 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
    - O rating é um forte indicador de desempenho; 64% das partidas são vencidas pelo jogador com o rating mais alto. Esse efeito é mais evidente em níveis mais altos de habilidade, alcançando 94% em níveis mestres.
 
 <p align="center">
-  <img src="figures/histograma-rating.png" width="60%">
+  <img src="figures/hist-rating.png" width="60%">
 </p>
 
 2. **Movimentos por partida**:
