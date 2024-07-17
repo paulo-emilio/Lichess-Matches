@@ -58,22 +58,39 @@ O dataset contém aproximadamente 20.000 partidas de xadrez com as seguintes car
 ## Insights Importantes
 Aqui estão alguns insights importantes obtidos a partir da análise exploratória dos dados:
 
-1. **Movimentos**: O número de movimentos pode indicar a complexidade da partida.
-2. **Rating dos Jogadores**: A diferença de rating entre os jogadores influencia fortemente o resultado da partida.
-3. **Aberturas**: Certas aberturas podem ter uma maior taxa de sucesso dependendo do rating dos jogadores.
-4. **Tempo de Jogo**: Partidas com diferentes incrementos de tempo podem ter dinâmicas e resultados variados.
 
-### Distribuição dos Movimentos
+1. **Ratings**:
+   - A maioria dos jogadores está na faixa de 1400-1600 de rating, seguindo uma distribuição normal centrada nessa faixa.
+   - O rating é um forte indicador de desempenho; 64% das partidas são vencidas pelo jogador com o rating mais alto. Esse efeito é mais evidente em níveis mais altos de habilidade, alcançando 94% em níveis mestres.
 
-![Histograma Movimentos](figures/hist_movimentos.png)
+<p align="center">
+  <img src="figures/histograma-rating.png" width="60%">
+</p>
 
-### Impacto do Rating no Resultado
+2. **Movimentos por partida**:
+   - A maioria das partidas termina entre 30 e 70 movimentos.
+   - Jogadores de níveis mais altos tendem a ter partidas com mais movimentos, exceto no nível mestre onde o número de movimentos pode diminuir um pouco, mas ainda é mais alto que em níveis avançados.
+   - Jogos mais rápidos, como bullet, geralmente têm menos movimentos, enquanto partidas clássicas mostram uma diminuição curiosa no número de movimentos, destacando a gravidade dos erros nesses formatos.
 
-![Rating](figures/rating.png)
 
-### Aberturas mais Comuns
+3. **Cor das Peças**:
+   - Jogadores que começam com as peças brancas têm uma vantagem, vencendo 5% a mais das partidas, uma tendência observada em todas as classes de habilidade, atribuível à vantagem inicial de jogar primeiro.
 
-![Aberturas](figures/aberturas.png)
+
+4. **Modo de encerramento das partidas**:
+   - A maioria das partidas termina por desistência ou cheque-mate.
+   - A taxa de empates aumenta conforme a habilidade dos jogadores melhora, especialmente entre os especialistas, refletindo uma maior capacidade de evitar derrotas.
+
+
+5. **Formato das partidas**:
+   - O formato rápido é o mais prevalente entre as partidas.
+
+
+6. **Aberturas**:
+   - As aberturas mais comuns são a "Sicilian Defense" e a "Van't Kruijs Opening".
+   - Há vantagens e desvantagens distintas em usar diferentes aberturas, tanto para as peças brancas quanto para as pretas, com algumas aberturas apresentando altos índices de empate.
+   - Jogadores de níveis mais elevados tendem a realizar mais lances de abertura, com uma média de 3 para iniciantes e 6.5 para mestres.
+
 
 ## Como Utilizar
 ### Notebook de Limpeza de Dados
@@ -85,4 +102,4 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
 2. Execute todas as células do notebook para realizar a análise exploratória dos dados e obter insights.
 
 ## Contribuições
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para entrar em contato comigo, abrir uma issue ou enviar um pull request.
