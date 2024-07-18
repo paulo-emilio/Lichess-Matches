@@ -62,13 +62,13 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
 1. **Ratings**:
    - A maioria dos jogadores está na faixa de 1400-1600 de rating, seguindo uma distribuição normal centrada nessa faixa.
    - O rating é um forte indicador de desempenho; 64% das partidas são vencidas pelo jogador com o rating mais alto. Esse efeito é mais evidente em níveis mais altos de habilidade, alcançando 94% em níveis mestres.
+   - A taxa de empates aumenta conforme a habilidade dos jogadores melhora, especialmente entre os especialistas, refletindo uma maior capacidade de evitar derrotas.
 
 <img src="figures/hist-rating.png" alt="Histograma Rating" width="60%">
 
 2. **Movimentos por partida**:
    - A maioria das partidas termina entre 30 e 70 movimentos.
    - Jogadores de níveis mais altos tendem a ter partidas com mais movimentos, exceto no nível mestre onde o número de movimentos pode diminuir um pouco, mas ainda é mais alto que em níveis avançados.
-   - Jogos mais rápidos, como bullet, geralmente têm menos movimentos, enquanto partidas clássicas mostram uma diminuição curiosa no número de movimentos, destacando a gravidade dos erros nesses formatos.
 
 <img src="figures/turns-by-type.png" alt="Histograma Rating" width="60%">
 
@@ -78,13 +78,13 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
 <img src="figures/winner-color.png" alt="Histograma Rating" width="60%">
 
 4. **Modo de encerramento das partidas**:
-   - A maioria das partidas termina por desistência ou cheque-mate.
-   - A taxa de empates aumenta conforme a habilidade dos jogadores melhora, especialmente entre os especialistas, refletindo uma maior capacidade de evitar derrotas.
+   - A maioria das partidas termina por desistência (55%) ou cheque-mate (32%), poucas terminam por tempo (8%), e o resto termina em empate (5%).
 
 <img src="figures/hist-rating.png" alt="Histograma Rating" width="60%">
 
 5. **Formato das partidas**:
    - O formato rápido é o mais prevalente entre as partidas.
+   - Jogos mais rápidos, como bullet, geralmente têm menos movimentos, enquanto partidas clássicas mostram uma diminuição curiosa no número de movimentos, destacando a gravidade dos erros nesses formatos.
 
 <img src="figures/hist-rating.png" alt="Histograma Rating" width="60%">
 
