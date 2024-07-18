@@ -58,7 +58,6 @@ O dataset contém aproximadamente 20.000 partidas de xadrez com as seguintes car
 ## Insights Importantes
 Aqui estão alguns insights importantes obtidos a partir da análise exploratória dos dados:
 
-
 1. **Ratings**:
    - A maioria dos jogadores está na faixa de 1400-1600 de rating, seguindo uma distribuição normal centrada nessa faixa.
    - O rating é um forte indicador de desempenho; 64% das partidas são vencidas pelo jogador com o rating mais alto. Esse efeito é mais evidente em níveis mais altos de habilidade, alcançando 94% em níveis mestres.
@@ -75,7 +74,7 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
 3. **Cor das Peças**:
    - Jogadores que começam com as peças brancas têm uma vantagem, vencendo 5% a mais das partidas, uma tendência observada em todas as classes de habilidade, atribuível à vantagem inicial de jogar primeiro.
 
-<img src="figures/winner-color.png" alt="Winner by Color" width="60%">
+<img src="figures/winner-color.png" alt="Winner by Color" width="40%">
 
 4. **Modo de encerramento das partidas**:
    - A maioria das partidas termina por desistência (55%) ou cheque-mate (32%), poucas terminam por tempo (8%), e o resto termina em empate (5%).
@@ -95,6 +94,10 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
 
 <img src="figures/openings-black.png" alt="Best Openings for Black" width="60%">
 
+## Conclusão
+
+A análise de dados das partidas de xadrez revela que o rating dos jogadores é um forte indicador de desempenho, especialmente em níveis mais altos. Jogadores que começam com as peças brancas têm uma ligeira vantagem devido à iniciativa de jogar primeiro. A escolha do formato da partida, como jogos rápidos ou clássicos, afeta a duração e a dinâmica do jogo. Desistências e cheque-mates são os modos de encerramento mais comuns, refletindo a pressão e a estratégia envolvidas. As aberturas escolhidas podem definir o tom da partida, com certas aberturas sendo preferidas por sua eficácia e capacidade de controlar o jogo desde o início. Esses fatores combinados influenciam significativamente os resultados das partidas de xadrez. 
+
 
 ## Como Utilizar
 ### Notebook de Limpeza de Dados
@@ -106,4 +109,4 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
 2. Execute todas as células do notebook para realizar a análise exploratória dos dados e obter insights.
 
 ## Contribuições
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para entrar em contato comigo, abrir uma issue ou enviar um pull request.
+Contribuições são muito bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para entrar em contato comigo, abrir uma issue ou enviar um pull request.
