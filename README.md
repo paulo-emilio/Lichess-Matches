@@ -1,9 +1,9 @@
 # Análise de Partidas de Xadrez (Lichess)
 
+![Chess](figures/wallpaper.jpg)  
+
 ## Visão Geral
 Este projeto realiza a limpeza e análise de dados de partidas de xadrez coletadas do site Lichess.org. O objetivo é explorar as características das partidas e identificar os fatores chave que influenciam os resultados dos jogos, com foco em entender as relações entre as classificações dos jogadores, o tempo de jogo e as decisões estratégicas.
-
-![Chess](figures/wallpaper.jpg)  <!-- Adicione uma imagem relevante do seu projeto aqui -->
 
 ## Tecnologias Utilizadas
 - Python
