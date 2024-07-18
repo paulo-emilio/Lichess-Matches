@@ -70,30 +70,30 @@ Aqui estão alguns insights importantes obtidos a partir da análise exploratór
    - A maioria das partidas termina entre 30 e 70 movimentos.
    - Jogadores de níveis mais altos tendem a ter partidas com mais movimentos, exceto no nível mestre onde o número de movimentos pode diminuir um pouco, mas ainda é mais alto que em níveis avançados.
 
-<img src="figures/turns-by-type.png" alt="Histograma Rating" width="60%">
+<img src="figures/hist-turns.png" alt="Histograma Turns" width="60%">
 
 3. **Cor das Peças**:
    - Jogadores que começam com as peças brancas têm uma vantagem, vencendo 5% a mais das partidas, uma tendência observada em todas as classes de habilidade, atribuível à vantagem inicial de jogar primeiro.
 
-<img src="figures/winner-color.png" alt="Histograma Rating" width="60%">
+<img src="figures/winner-color.png" alt="Winner by Color" width="60%">
 
 4. **Modo de encerramento das partidas**:
    - A maioria das partidas termina por desistência (55%) ou cheque-mate (32%), poucas terminam por tempo (8%), e o resto termina em empate (5%).
 
-<img src="figures/hist-rating.png" alt="Histograma Rating" width="60%">
+<img src="figures/outcome.png" alt="Outcome" width="60%">
 
 5. **Formato das partidas**:
    - O formato rápido é o mais prevalente entre as partidas.
    - Jogos mais rápidos, como bullet, geralmente têm menos movimentos, enquanto partidas clássicas mostram uma diminuição curiosa no número de movimentos, destacando a gravidade dos erros nesses formatos.
 
-<img src="figures/hist-rating.png" alt="Histograma Rating" width="60%">
+<img src="figures/turns-by-type.png" alt="Turnos por tipo de jogo" width="60%">
 
 6. **Aberturas**:
    - As aberturas mais comuns são a "Sicilian Defense" e a "Van't Kruijs Opening".
    - Há vantagens e desvantagens distintas em usar diferentes aberturas, tanto para as peças brancas quanto para as pretas, com algumas aberturas apresentando altos índices de empate.
    - Jogadores de níveis mais elevados tendem a realizar mais lances de abertura, com uma média de 3 para iniciantes e 6.5 para mestres.
 
-<img src="figures/hist-rating.png" alt="Histograma Rating" width="60%">
+<img src="figures/openings-black.png" alt="Best Openings for Black" width="60%">
 
 
 ## Como Utilizar
